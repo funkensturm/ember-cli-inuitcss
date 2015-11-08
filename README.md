@@ -4,8 +4,7 @@ A quick start to use inuitcss/itcss in an ember-cli app.
 
 ## Installation
 
-* `npm install --save-dev broccoli-sass`
-* `npm install --save-dev ember-cli-inuitcss`
+* `ember install ember-cli-inuitcss`
 
 ## Usage
 
