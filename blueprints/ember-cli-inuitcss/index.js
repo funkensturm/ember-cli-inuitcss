@@ -3,22 +3,28 @@ module.exports = {
 
   afterInstall: function() {
     return this.addBowerPackagesToProject([
-      { name: 'inuit-defaults' },
-      { name: 'inuit-responsive-settings' },
-      { name: 'inuit-functions' },
-      { name: 'inuit-mixins' },
-      { name: 'inuit-responsive-tools' },
-      { name: 'inuit-tools-widths' },
-      { name: 'inuit-normalize' },
-      { name: 'inuit-reset' },
       { name: 'inuit-box-sizing' },
-      { name: 'inuit-shared' },
-      { name: 'inuit-page' },
+      { name: 'inuit-clearfix' },
+      { name: 'inuit-defaults' },
+      { name: 'inuit-functions' },
       { name: 'inuit-headings' },
-      { name: 'inuit-lists' },
+      { name: 'inuit-headings-trumps' },
       { name: 'inuit-images' },
       { name: 'inuit-layout' },
-      { name: 'inuit-clearfix' }
+      { name: 'inuit-lists' },
+      { name: 'inuit-mixins' },
+      { name: 'inuit-normalize' },
+      { name: 'inuit-page' },
+      { name: 'inuit-paragraphs' },
+      { name: 'inuit-reset' },
+      { name: 'inuit-responsive-settings' },
+      { name: 'inuit-responsive-tools' },
+      { name: 'inuit-shared' },
+      { name: 'inuit-spacing' },
+      { name: 'inuit-spacing-responsive' },
+      { name: 'inuit-tools-widths' },
+      { name: 'inuit-widths' },
+      { name: 'inuit-widths-responsive' }
     ]);
   }
 };
