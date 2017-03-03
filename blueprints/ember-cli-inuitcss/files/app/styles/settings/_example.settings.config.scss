@@ -6,9 +6,9 @@
 // feature switches, etc. in here.
 
 $inuit-config: (
-  env: production,
+  env: dev,
   healthcheck: false,
-  debug: false,
+  debug: true,
 );
 
 // You can access data in this map using the following function:
