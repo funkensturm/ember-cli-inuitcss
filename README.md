@@ -1,5 +1,7 @@
 # Ember-cli-inuitcss
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/funkensturm/ember-cli-inuitcss.svg)](https://greenkeeper.io/)
+
 A quick start to use inuitcss/itcss in an ember-cli app.
 
 ## Installation
