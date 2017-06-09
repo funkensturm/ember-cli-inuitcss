@@ -6,7 +6,52 @@ A quick start to use inuitcss/itcss in an ember-cli app.
 
 * `ember install ember-cli-inuitcss`
 
-## Usage
+## Usage > 0.2.0
+
+You can use the `app.scss` the addon provides or just use what you need.
+The `app.scss` the addon provides:
+
+```scss
+// SETTINGS
+@import "settings/settings.config";
+@import "inuitcss/settings/settings.core";
+@import "settings/settings.global";
+
+// TOOLS
+@import "inuitcss/tools/tools.font-size";
+@import "inuitcss/tools/tools.clearfix";
+@import "sass-mq/mq";
+
+// GENERIC
+@import "inuitcss/generic/generic.box-sizing";
+@import "inuitcss/generic/generic.normalize";
+@import "inuitcss/generic/generic.shared";
+
+// ELEMENTS
+@import "inuitcss/elements/elements.page";
+@import "inuitcss/elements/elements.headings";
+
+// OBJECTS
+@import "inuitcss/objects/objects.layout";
+@import "inuitcss/objects/objects.media";
+@import "inuitcss/objects/objects.flag";
+@import "inuitcss/objects/objects.list-bare";
+@import "inuitcss/objects/objects.list-inline";
+@import "inuitcss/objects/objects.box";
+@import "inuitcss/objects/objects.block";
+@import "inuitcss/objects/objects.tables";
+
+// COMPONENTS
+// @import "components.your-component";
+
+// UTILITIES
+@import "inuitcss/utilities/utilities.widths";
+@import "inuitcss/utilities/utilities.headings";
+@import "inuitcss/utilities/utilities.spacing";
+```
+
+
+## Usage < 0.1.3
 
 You can use the `app.scss` the addon provides or just use what you need.
 The `app.scss` the addon provides:
