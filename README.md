@@ -1,5 +1,6 @@
 # Ember-cli-inuitcss
 
+[![Build Status](https://travis-ci.org/funkensturm/ember-cli-inuitcss.svg?branch=master)](https://travis-ci.org/funkensturm/ember-cli-inuitcss)
 [![Greenkeeper badge](https://badges.greenkeeper.io/funkensturm/ember-cli-inuitcss.svg)](https://greenkeeper.io/)
 
 A quick start to use inuitcss/itcss in an ember-cli app.
