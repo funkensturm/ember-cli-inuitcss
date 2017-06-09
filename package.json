@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-inuitcss",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "A quick start to use inuitcss in an ember-cli app.",
   "keywords": [
     "ember-addon",
