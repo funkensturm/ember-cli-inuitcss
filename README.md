@@ -1,12 +1,15 @@
 # Ember-cli-inuitcss
 
+[![Build Status](https://travis-ci.org/funkensturm/ember-cli-inuitcss.svg?branch=master)](https://travis-ci.org/funkensturm/ember-cli-inuitcss)
+[![Greenkeeper badge](https://badges.greenkeeper.io/funkensturm/ember-cli-inuitcss.svg)](https://greenkeeper.io/)
+
 A quick start to use inuitcss/itcss in an ember-cli app.
 
 ## Installation
 
 * `ember install ember-cli-inuitcss`
 
-## Usage > 0.2.0
+## Usage >= 1.0.0
 
 You can use the `app.scss` the addon provides or just use what you need.
 The `app.scss` the addon provides:
@@ -51,7 +54,7 @@ The `app.scss` the addon provides:
 ```
 
 
-## Usage < 0.1.3
+## Usage <= 0.1.2
 
 You can use the `app.scss` the addon provides or just use what you need.
 The `app.scss` the addon provides:
