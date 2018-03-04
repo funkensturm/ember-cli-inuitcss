@@ -53,9 +53,6 @@ The `app.scss` the addon provides:
 @import "inuitcss/objects/objects.wrapper";
 
 // COMPONENTS
-@import "components/_example.components.button";
-
-// COMPONENTS
 // @import "components.your-component";
 
 // UTILITIES
