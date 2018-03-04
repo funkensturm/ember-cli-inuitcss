@@ -1,11 +1,10 @@
-/* eslint-env node */
 'use strict';
 
 module.exports = {
   name: 'ember-cli-inuitcss',
   included: function(app) {
     var includePaths = [
-      'bower_components'
+      'node_modules'
     ];
 
     if (!app.options.sassOptions) {

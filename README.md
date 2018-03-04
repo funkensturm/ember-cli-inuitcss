@@ -16,41 +16,53 @@ The `app.scss` the addon provides:
 
 ```scss
 // SETTINGS
-@import "settings/settings.config";
 @import "inuitcss/settings/settings.core";
-@import "settings/settings.global";
+@import "settings/_example.settings.config";
+@import "settings/_example.settings.global";
 
 // TOOLS
 @import "inuitcss/tools/tools.font-size";
 @import "inuitcss/tools/tools.clearfix";
+@import "inuitcss/tools/tools.hidden";
 @import "sass-mq/mq";
 
 // GENERIC
 @import "inuitcss/generic/generic.box-sizing";
 @import "inuitcss/generic/generic.normalize";
+@import "inuitcss/generic/generic.reset";
 @import "inuitcss/generic/generic.shared";
 
 // ELEMENTS
 @import "inuitcss/elements/elements.page";
+@import "inuitcss/elements/elements.images";
 @import "inuitcss/elements/elements.headings";
+@import "inuitcss/elements/elements.tables";
 
 // OBJECTS
-@import "inuitcss/objects/objects.layout";
-@import "inuitcss/objects/objects.media";
+@import "inuitcss/objects/objects.block";
+@import "inuitcss/objects/objects.box";
+@import "inuitcss/objects/objects.crop";
 @import "inuitcss/objects/objects.flag";
+@import "inuitcss/objects/objects.layout";
 @import "inuitcss/objects/objects.list-bare";
 @import "inuitcss/objects/objects.list-inline";
-@import "inuitcss/objects/objects.box";
-@import "inuitcss/objects/objects.block";
-@import "inuitcss/objects/objects.tables";
+@import "inuitcss/objects/objects.media";
+@import "inuitcss/objects/objects.pack";
+@import "inuitcss/objects/objects.ratio";
+@import "inuitcss/objects/objects.table";
+@import "inuitcss/objects/objects.wrapper";
 
 // COMPONENTS
 // @import "components.your-component";
 
 // UTILITIES
-@import "inuitcss/utilities/utilities.widths";
+@import "inuitcss/utilities/utilities.clearfix";
 @import "inuitcss/utilities/utilities.headings";
-@import "inuitcss/utilities/utilities.spacing";
+@import "inuitcss/utilities/utilities.hide";
+@import "inuitcss/utilities/utilities.print";
+@import "inuitcss/utilities/utilities.responsive-spacings";
+@import "inuitcss/utilities/utilities.spacings";
+@import "inuitcss/utilities/utilities.widths";
 ```
 
 
