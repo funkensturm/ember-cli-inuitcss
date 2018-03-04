@@ -9,6 +9,12 @@ A quick start to use inuitcss/itcss in an ember-cli app.
 
 * `ember install ember-cli-inuitcss`
 
+## Changelog
+
+### 1.0.2
+* [BUGFIX] Fix wrong imports in blueprint. Thanks to [@kennstenicht](https://github.com/kennstenicht) for the PR.
+* [ENHANCEMENT] Use npm instead of bower. You can now remove the `inuitcss` and `sass-mq` dependencies from `bower.json`. Thanks to [@kennstenicht](https://github.com/kennstenicht) for the PR.
+
 ## Usage >= 1.0.0
 
 You can use the `app.scss` the addon provides or just use what you need.
@@ -154,3 +160,10 @@ $inuit-enable-paddings: true;
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## Publishing
+
+```bash
+ember release
+npm publish
+```
