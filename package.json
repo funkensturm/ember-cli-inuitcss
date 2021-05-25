@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0",
-    "ember-cli-sass": "^7.1.7",
+    "ember-cli-sass": "^10.0.1",
     "inuitcss": "^6.0.0"
   },
   "devDependencies": {
@@ -49,7 +49,8 @@
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^5.2.1",
-    "loader.js": "^4.4.0"
+    "loader.js": "^4.4.0",
+    "sass": "^1.34.0"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
