@@ -2,10 +2,8 @@
 
 module.exports = {
   name: 'ember-cli-inuitcss',
-  included: function(app) {
-    var includePaths = [
-      'node_modules'
-    ];
+  included: function (app) {
+    var includePaths = ['node_modules'];
 
     if (!app.options.sassOptions) {
       app.options.sassOptions = {};
@@ -18,5 +16,5 @@ module.exports = {
     }
 
     this._super.included(app);
-  }
+  },
 };

@@ -1,9 +1,7 @@
 module.exports = {
-  normalizeEntityName: function() {},
+  normalizeEntityName: function () {},
 
-  afterInstall: function() {
-    return this.addPackagesToProject([
-      { name: 'inuitcss' }
-    ]);
-  }
+  afterInstall: function () {
+    return this.addPackagesToProject([{ name: 'inuitcss' }]);
+  },
 };
