@@ -39,7 +39,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install --no-lockfile
       - name: Run Tests
-        run: test:ember
+        run: yarn test:ember
 
   try-scenarios:
     name: ${{ matrix.try-scenario }}
